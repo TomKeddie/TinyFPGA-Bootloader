@@ -8,3 +8,8 @@ synlog.tcl
 gerbers/
 build/
 *.pyc
+
+# Vivado
+vivado*.jou
+vivado*.log
+vivado*.str
