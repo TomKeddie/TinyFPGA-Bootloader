@@ -1,0 +1,3 @@
+[submodule "boards/arty7_35/Arty"]
+	path = boards/arty7_35/Arty
+	url = https://github.com/Digilent/Arty.git
