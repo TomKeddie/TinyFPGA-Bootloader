@@ -118,6 +118,6 @@ module bootloader (
   assign usb_p_rx = usb_tx_en ? 1'b1 : jb[0];
   assign usb_n_rx = usb_tx_en ? 1'b0 : jb[1];
 
-  assign jb[2] = 1'b0;
-  assign jb[3] = 1'b0;
+  assign jb[2] = 1'b1;
+  assign jb[3] = 1'b1;
 endmodule
